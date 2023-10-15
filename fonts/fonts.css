@@ -1,0 +1,36 @@
+@font-face {
+  font-family:"Romanesco";
+  src: url('../fonts//Romanesco/Romanesco-Regular.ttf');
+  src: url('../fonts/Romanesco/Romanesco-Regular.ttf') format('embedded-opentype'),
+    url('../fonts/Romanesco/Romanesco-Regular.ttf') format('woff2'),
+    url('../fonts/Romanesco/Romanesco-Regular.ttf') format('woff'),
+    url('../fonts/Romanesco/Romanesco-Regular.ttf') format('truetype');  
+}
+
+@font-face {
+  font-family:"Roboto";
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Regular.ttf') format('woff2'),
+    url('../fonts/Roboto/Roboto-Regular.ttf') format('woff'),
+    url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family:"Roboto Medium";
+  src: url('../fonts/Roboto/Roboto-Medium.ttf');
+  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Medium.ttf') format('woff2'),
+    url('../fonts/Roboto/Roboto-Medium.ttf') format('woff'),
+    url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family:"Roboto Bold";
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Bold.ttf') format('woff2'),
+    url('../fonts/Roboto/Roboto-Bold.ttf') format('woff'),
+    url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'); 
+}
+

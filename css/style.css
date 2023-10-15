@@ -1,0 +1,648 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.offer {
+	background: #DBDBDB;
+}
+
+.offer p {
+	color: #232323;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	margin: 9px 0;
+}
+
+.nav-link {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.navbar-brand {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.bannerp {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 32px;
+	font-style: normal;
+	line-height: normal;
+	text-align: center;
+}
+
+.bannerheading {
+	color: #FFF;
+	text-align: center;
+	font-family: Romanesco;
+	font-size: 160px;
+}
+
+.bannerp1 {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 32px;
+	font-style: normal;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 37px;
+	margin-top: 24px;
+}
+
+.btndisc {
+	width: 243px;
+	height: 62px;
+	margin: auto;
+	border-radius: 100px;
+	border: 2px solid #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.btndisc a {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+
+	line-height: normal;
+	text-decoration: none;
+}
+
+.btndisc:hover {
+	background-color: #E13600;
+	border: none;
+}
+
+.trending {
+	padding-top: 66px;
+}
+
+.trendrelative {
+	background-image: url(../Images/MostWanted.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 668px;
+	margin-right: 25px;
+}
+
+.trendcont {
+	padding: 268px 0 268px 41px;
+	position: relative;
+	cursor: pointer;
+}
+
+.trendcont h4 {
+	color: #FFF;
+	font-family: "Roboto Bold";
+	font-size: 34px;
+	font-style: normal;
+	line-height: 1;
+	margin-bottom: 7px;
+}
+
+.mb {
+	margin-bottom: 17px !important;
+}
+
+.trendcont a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: "Roboto";
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+	transition: all 0.3s ease;
+}
+
+.trendcont a:hover {
+	color: #1B1B1B;
+}
+
+.trainer {
+	background-image: url(../Images/Trainers_Sportwear.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 311px;
+	margin-bottom: 45px;
+}
+
+.trainercont {
+	padding: 89px 0 90px 35px;
+	position: relative;
+	cursor: pointer;
+}
+
+.trainercont h4 {
+	color: #1B1B1B;
+	font-family: "Roboto Bold";
+	font-size: 34px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.trainercont a {
+	color: #1B1B1B;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition: all 0.3s ease;
+}
+
+.trainercont a:hover {
+	color: #E13600;
+}
+
+.holiday {
+	background-image: url(../Images/HolidayClothes.png) !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 311px;
+}
+
+.padding {
+	padding: 86px 0 77px 0;
+}
+
+.trendpad {
+	padding: 84px 0 86px 0
+}
+
+button.owl-prev {
+	position: absolute;
+	top: 40%;
+	left: -45px;
+	border: none;
+	background: transparent
+}
+
+button.owl-next {
+	position: absolute;
+	right: -20px;
+	top: 40%;
+	border: none;
+	background: transparent
+}
+
+.collection {
+	background-image: url(../Images/new_collection.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.collectionpad {
+	padding: 187px 0;
+}
+
+.cmntext {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.2px;
+	margin-bottom: 19px;
+}
+
+.collectionpad h3 {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 62px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 6.2px;
+	margin-bottom: 19px;
+}
+
+.specialwrapper .special {
+	color: #E13600;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.refine {
+	color: #000 !important;
+	margin: 19px 0 !important;
+}
+
+.specialtext {
+	width: 423px;
+	margin: auto;
+	color: #9F9F9F;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 39px;
+}
+
+.specialcont p {
+	color: #1B1B1B;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 15px;
+	margin-bottom: 9px;
+}
+
+.specialcont h6 {
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 9px;
+}
+
+.casualwrap {
+	background: url(../Images/casual_basic.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.trendcont div {
+	width: 177px;
+	height: 62px;
+	border-radius: 100px;
+	border: 2px solid #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+
+}
+
+.buybtn a {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition: all 0.5s ease;
+}
+
+.buybtn:hover {
+	background-color: #E13600;
+	border: none;
+}
+
+.buybtn a:hover {
+	color: #FFF;
+}
+
+
+
+.nav-tabs {
+	--bs-nav-tabs-border-width: none;
+}
+
+a.nav-link {
+	color: #1B1B1B;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+a.nav-link.active {
+	color: #E13600 !important;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
+a.nav-link:hover {
+	color: #E13600 !important;
+	transition: all 0.4s ease-out;
+}
+
+.hovercap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	background: rgba(225, 54, 0, 0.70);
+	padding: 12px 0;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.hovercap {
+	opacity: 0;
+}
+
+.hoverwrap:hover .hovercap {
+	visibility: visible;
+	opacity: 1;
+	transition: all 0.5s ease-in;
+}
+
+.hoverwrap {
+	overflow: hidden;
+}
+
+.hoverwrap img:hover {
+	scale: 1.1;
+}
+
+.hoverwrap img {
+	width: 100%;
+	transition: all 0.4s linear;
+}
+
+.trandy-item .trandy-cart:hover {
+	opacity: 1;
+}
+
+.arrival-disc {
+	margin: 21px 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.arrival-disc p {
+	color: #CCC;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+}
+
+.items h6 {
+	color: #1B1B1B;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.items p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 0px;
+}
+
+.loadomore {
+	width: 200px;
+	margin: auto;
+	margin-top: 53px;
+	border-radius: 100px;
+	border: 2px solid #E13600;
+	padding: 18px 0;
+	transition: all 0.5s ease;
+}
+
+.loadomore a {
+	color: #E13600;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.loadomore:hover {
+	transform: translateY(-10px)
+}
+
+.floating {
+	background: #1B1B1B;
+	padding: 46px 0;
+}
+
+.float-wrapper h5 {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4.2px;
+	margin-bottom: 13px;
+}
+
+.float-wrapper p {
+	width: 100%;
+	max-width: 750px;
+	margin: auto;
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+	margin-bottom: 13px;
+
+}
+
+.float-wrapper a {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+	margin-bottom: 0;
+	transition: all 0.3s ease;
+}
+
+.float-wrapper a:hover {
+	color: #E13600;
+}
+
+.footer {
+	padding: 58px 0 42px 0;
+}
+
+.footer-main a {
+	color: #1B1B1B;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.footer-main p {
+	width: 100%;
+	max-width: 610px;
+	color: #CCC;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 43px;
+}
+
+.footer-contact p {
+	color: #919191;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.footer-contact span {
+	color: rgba(120, 204, 54, 0.88);
+	font-family: Roboto;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.footer-links h6 {
+	color: #323232;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 29px;
+	margin-bottom: 22px;
+}
+
+.footer-links li {
+	list-style: none;
+}
+
+.footer-links a {
+	color: #CCC;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.footer-links a:hover {
+	color: #323232;
+	transition: all 0.4s ease;
+}
+
+.devider {
+	height: 1px;
+	background: #ECECEC;
+	margin: 35px 0 22px 0;
+}
+
+.copyprigt-main p {
+	color: #919191;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.copyprigt-main a {
+	color: #919191;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	text-decoration-line: underline;
+}
+
+.copyprigt-main a:hover {
+	color: #323232;
+	transition: all 0.4s ease;
+}
+
+.sponcerwrap {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.btn_play img {
+	width: 124px;
+	height: 124px;
+	border-radius: 100%;
+	animation-name: btnfade;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes btnfade {
+	0% {
+		box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+	}
+
+	80% {
+		box-shadow: 0 0 0 20px #fff0, 0 0 0 40px #fff0;
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+	}
+}
+
+
+body {
+	overflow-x: hidden;
+}
